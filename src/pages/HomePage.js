@@ -21,10 +21,12 @@ function HomePage(props) {
             <section id="news">
                 <LatestNews />
             </section>
-            <section id="speakers">
+            <section id="workstat">
                 <WorkStat/>
             </section>
+            <section id="timeline">
             <TimeLineSection/>
+            </section>
             {/* <GetInTouch /> */}
             <Footer/>
         </div>

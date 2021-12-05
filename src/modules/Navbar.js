@@ -28,7 +28,7 @@ function Navbar() {
                         <li className="nav-item active">
                             <a
                                 className="nav-link navLinkTab js-scroll-trigger"
-                                href="/"
+                                href="#"
                                 style={{ color: "#ffffff" }}
                             >
                                 <h4>HOME</h4>
@@ -65,10 +65,10 @@ function Navbar() {
                         <li className="nav-item active">
                             <a
                                 className="nav-link navLinkTab js-scroll-trigger"
-                                href="/Papers"
+                                href="#timeline"
                                 style={{ color: "#ffffff" }}
                             >
-                                <h4>RESEARCH PAPERS</h4>
+                                <h4>TIMELINE</h4>
                             </a>
                         </li>
 
