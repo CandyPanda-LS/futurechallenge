@@ -1,0 +1,11 @@
+.CardDiv {
+  background-image: linear-gradient(
+    to bottom,
+    #000102,
+    #000102,
+    #000102,
+    #000102,
+    #000102
+  );
+  color: aliceblue;
+}
