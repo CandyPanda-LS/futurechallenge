@@ -32,7 +32,7 @@ function HomeDetails() {
                     data-aos-duration="1000"
                 >
                     <div
-                        className="col-lg-8 col-md-8 col-sm-12 conferenceDetailsSection"
+                        className="col-lg-9 col-md-9 col-sm-12 conferenceDetailsSection"
                         data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-sine"
                         data-aos-offset="500"
@@ -53,9 +53,9 @@ function HomeDetails() {
                                 intervalDelay={0}
                                 precision={3}
                                 renderer={(props) => (
-                                    <div className="container">
-                                        <div className="row text-center">
-                                            <div className="col-lg-2 countDownDiv">
+                                    <div className="container mt-5">
+                                        <div className="row text-center ">
+                                            <div className="col-lg-2 countDownDiv ml-3">
                                                 <div className="row">
                                                     <div className="col-lg-12 countDownData">{props.days}</div>
                                                     <div className="col-lg-12 countDownTitle"><p style={{fontSize:"15px"}}>DAYS</p></div>
