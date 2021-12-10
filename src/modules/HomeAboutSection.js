@@ -24,14 +24,9 @@ function HomeAboutSection() {
                 <hr />
                 <div className="container">
                     <p>
-                        The 3rd International conference on advancements in computing
-                        -2021 (ICAC2021) is organized by the Faculty of Computing of the
-                        Sri Lanka Institute of Information Technology (SLIIT) as an open
-                        forum for academics along with industry professionals to present
-                        the latest findings and research output and practical deployments
-                        in the Computer Science and Information Technology domains.
-                        Primary objective of the ICAC is to uplift the research culture
-                        and the quality of research done by Sri Lankan researchers
+
+                        ‘Future Challenge’ is a Professional Development Program involving a series of activities, held with the primary objective of amalgamating the local academic arena with the corporate world. The core of this program lies in the Career Day that is to be held on the 6th and 7th of January 2022. This main event comprises interview sessions, where the corporate sector gets the rare opportunity to interview a diverse group of over 400 Sri Lanka’s finest science undergraduates and graduates. A complementing and essential mix of workshops, forums, presentations and expert discussions will be held prior to the event to better prepare the undergraduates participating at this event.
+
                     </p>
                 </div>
             </div>

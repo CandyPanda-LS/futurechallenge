@@ -43,44 +43,45 @@ function HomeDetails() {
                             <h2 className="mb-0 font-weight-bold ">
                                 FUTURE CHALLENGE 2021
                             </h2>
-                            <p className="mb-0" style={{fontSize:"15px"}}>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. .</p>
-                            <h2 className="mt-3" style={{fontSize:"20px"}}>Univeristy of Colombo , Faculty of Science</h2>
+                            <p className="mb-0" style={{ fontSize: "15px" }}>Future Challenge was started in 2005 as a day-long Career Fair with the participation of just 14 companies. With time, both its importance and magnitude has grown, with more and more companies and graduates participating in the event. We have witnessed the increased participation of more leading local and multinational companies, from IT, Finance, Marketing, Research and Development, Apparel to Fast-Moving Consumer Goods (FMCG).
+                            </p>
+                            <h2 className="mt-3" style={{ fontSize: "20px" }}>Univeristy of Colombo , Faculty of Science</h2>
                         </div>
 
                         <div>
                             <Countdown
-                                date={Date.now() + 1000000000}
+                                date={'2022-01-06T00:00:00'}
                                 intervalDelay={0}
                                 precision={3}
                                 renderer={(props) => (
-                                    <div className="container mt-5">
+                                    <div className="container mt-5 mb-5">
                                         <div className="row text-center ">
-                                            <div className="col-lg-2 countDownDiv ml-3">
+                                            <div className="col countDownDiv ml-3">
                                                 <div className="row">
                                                     <div className="col-lg-12 countDownData">{props.days}</div>
-                                                    <div className="col-lg-12 countDownTitle"><p style={{fontSize:"15px"}}>DAYS</p></div>
+                                                    <div className="col-lg-12 countDownTitle"><p style={{ fontSize: "15px" }}>DAYS</p></div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-2 countDownDiv">
+                                            <div className="col countDownDiv">
                                                 <div className="row">
                                                     <div className="col-lg-12 countDownData">{props.hours}</div>
-                                                    <div className="col-lg-12 countDownTitle"><p style={{fontSize:"15px"}}>HOURS</p></div>
+                                                    <div className="col-lg-12 countDownTitle"><p style={{ fontSize: "15px" }}>HOURS</p></div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-2 countDownDiv">
+                                            <div className="col countDownDiv">
                                                 <div className="row">
                                                     <div className="col-lg-12 countDownData">
                                                         {props.minutes}
                                                     </div>
-                                                    <div className="col-lg-12 countDownTitle"><p style={{fontSize:"15px"}}>MINUTES</p></div>
+                                                    <div className="col-lg-12 countDownTitle"><p style={{ fontSize: "15px" }}>MINUTES</p></div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-2 countDownDiv">
+                                            <div className="col countDownDiv">
                                                 <div className="row">
                                                     <div className="col-lg-12 countDownData">
                                                         {props.seconds}
                                                     </div>
-                                                    <div className="col-lg-12 countDownTitle"><p style={{fontSize:"15px"}}>SECONDS</p></div>
+                                                    <div className="col-lg-12 countDownTitle"><p style={{ fontSize: "15px" }}>SECONDS</p></div>
                                                 </div>
                                             </div>
                                         </div>

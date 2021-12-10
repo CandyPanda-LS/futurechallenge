@@ -7,6 +7,7 @@ import LatestNews from '../modules/LatestNews';
 import WorkStat from '../modules/WorkStat';
 import TimeLineSection from '../modules/TimeLineSection';
 import Footer from '../modules/Footer';
+import SuccessStories from '../modules/SuccessStories';
 
 function HomePage(props) {
     useEffect(() => {
@@ -18,17 +19,21 @@ function HomePage(props) {
             <section id="about">
                 <HomeAboutSection />
             </section>
+            <section id="timeline">
+                <SuccessStories />
+            </section>
             <section id="news">
                 <LatestNews />
             </section>
             <section id="workstat">
-                <WorkStat/>
+                <WorkStat />
             </section>
             <section id="timeline">
-            <TimeLineSection/>
+                <TimeLineSection />
             </section>
+
             {/* <GetInTouch /> */}
-            <Footer/>
+            <Footer />
         </div>
     )
 }

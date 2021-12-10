@@ -21,13 +21,11 @@ export default class Footer extends Component {
                   {" "}
                   <i className="fas fa-phone fa-rotate-90 text-primary"></i>{" "}
                 </label>{" "}
-                800-601-0230
               </p>
               <div>
                 <p>
                   {" "}
                   <small className="follow-text">
-                    FOLLOW US ON SOCIAL MEDIA
                   </small>{" "}
                   <label className="footer-right">
                     {" "}
