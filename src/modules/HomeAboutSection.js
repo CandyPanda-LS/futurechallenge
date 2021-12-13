@@ -23,7 +23,7 @@ function HomeAboutSection() {
                 <h1 className="mt-4">About Future Challenge</h1>
                 <hr />
                 <div className="container">
-                    <p>
+                    <p style={{ textAlign:"justify" }}>
 
                         ‘Future Challenge’ is a Professional Development Program involving a series of activities, held with the primary objective of amalgamating the local academic arena with the corporate world. The core of this program lies in the Career Day that is to be held on the 6th and 7th of January 2022. This main event comprises interview sessions, where the corporate sector gets the rare opportunity to interview a diverse group of over 400 Sri Lanka’s finest science undergraduates and graduates. A complementing and essential mix of workshops, forums, presentations and expert discussions will be held prior to the event to better prepare the undergraduates participating at this event.
 

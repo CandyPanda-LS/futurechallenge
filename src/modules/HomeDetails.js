@@ -32,7 +32,7 @@ function HomeDetails() {
                     data-aos-duration="1000"
                 >
                     <div
-                        className="col-lg-9 col-md-9 col-sm-12 conferenceDetailsSection"
+                        className="col-lg-12 col-md-12 col-sm-12 conferenceDetailsSection"
                         data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-sine"
                         data-aos-offset="500"
@@ -43,7 +43,7 @@ function HomeDetails() {
                             <h2 className="mb-0 font-weight-bold ">
                                 FUTURE CHALLENGE 2021
                             </h2>
-                            <p className="mb-0" style={{ fontSize: "15px" }}>Future Challenge was started in 2005 as a day-long Career Fair with the participation of just 14 companies. With time, both its importance and magnitude has grown, with more and more companies and graduates participating in the event. We have witnessed the increased participation of more leading local and multinational companies, from IT, Finance, Marketing, Research and Development, Apparel to Fast-Moving Consumer Goods (FMCG).
+                            <p className="mb-0 mt-4" style={{ fontSize: "15px",textAlign:"justify" }}>Future Challenge was started in 2005 as a day-long Career Fair with the participation of just 14 companies. With time, both its importance and magnitude has grown, with more and more companies and graduates participating in the event. We have witnessed the increased participation of more leading local and multinational companies, from IT, Finance, Marketing, Research and Development, Apparel to Fast-Moving Consumer Goods (FMCG).
                             </p>
                             <h2 className="mt-3" style={{ fontSize: "20px" }}>Univeristy of Colombo , Faculty of Science</h2>
                         </div>
@@ -56,7 +56,7 @@ function HomeDetails() {
                                 renderer={(props) => (
                                     <div className="container mt-5 mb-5">
                                         <div className="row text-center ">
-                                            <div className="col countDownDiv ml-3">
+                                            <div className="col countDownDiv">
                                                 <div className="row">
                                                     <div className="col-lg-12 countDownData">{props.days}</div>
                                                     <div className="col-lg-12 countDownTitle"><p style={{ fontSize: "15px" }}>DAYS</p></div>

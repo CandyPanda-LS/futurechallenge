@@ -1,12 +1,14 @@
 import React from 'react'
 import rclogo from '../assets/rclogo.png'
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 
 function Navbar() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg ">
-                <img src={rclogo} width="17%" height="50%" />
+                <img src={rclogo} width="200px" />
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -17,11 +19,12 @@ function Navbar() {
                     aria-label="Toggle navigation"
                     style={{ color: "#ffffff" }}
                 >
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon" style={{ color: "white" ,fontSize:"30px"}}> <GiHamburgerMenu/></span>
                 </button>
 
                 <div
                     className="collapse navbar-collapse navLinkTab"
+                    style={{ color: "white" }}
                     id="navbarSupportedContent"
                 >
                     <ul className="navbar-nav mr-auto navLinkTab">
