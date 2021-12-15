@@ -38,7 +38,7 @@ export default function TimeLineSection() {
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography>
-                <span className="timeLineEventDate">10th December 2021</span>
+                <span className="timeLineEventDate">13  th December 2021</span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -47,13 +47,13 @@ export default function TimeLineSection() {
             </TimelineSeparator>
             <TimelineContent>
               <Typography>
-                <span className="timeLineEvent">Registration open</span>
+                <span className="timeLineEventActive">Registration open</span>
               </Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>
-              <Typography>
+            <TimelineOppositeContent >
+              <Typography >
                 <span className="timeLineEventDate">18th December 2021</span>
               </Typography>
             </TimelineOppositeContent>
@@ -102,7 +102,7 @@ export default function TimeLineSection() {
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography>
-                <span className="timeLineEventDate">21st December 2021 </span>
+                <span className="timeLineEventDate">22nd December 2021 </span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>

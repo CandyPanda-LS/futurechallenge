@@ -11,7 +11,7 @@ export default class Footer extends Component {
         <div className="container-fluid">
           <div className="card cardFooter">
             <div className="heading text-center">
-              <div className="head1">FUTURE CHALLENGE 2021</div>
+              <div className="head1">FUTURE CHALLENGE 2021-22</div>
               <p className="bdr"></p>
             </div>
             <div className="card-footer row m-0">

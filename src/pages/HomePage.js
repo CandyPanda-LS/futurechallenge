@@ -8,6 +8,8 @@ import WorkStat from '../modules/WorkStat';
 import TimeLineSection from '../modules/TimeLineSection';
 import Footer from '../modules/Footer';
 import SuccessStories from '../modules/SuccessStories';
+import CarouselExperiences from '../modules/CarouselExperiences';
+
 
 function HomePage(props) {
     useEffect(() => {
@@ -20,6 +22,9 @@ function HomePage(props) {
                 <HomeAboutSection />
             </section>
             <section id="timeline">
+                <TimeLineSection />
+            </section>
+            <section id="timeline">
                 <SuccessStories />
             </section>
             <section id="news">
@@ -28,10 +33,10 @@ function HomePage(props) {
             <section id="workstat">
                 <WorkStat />
             </section>
+           
             <section id="timeline">
-                <TimeLineSection />
+                <CarouselExperiences/>
             </section>
-
             {/* <GetInTouch /> */}
             <Footer />
         </div>

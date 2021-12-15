@@ -23,5 +23,14 @@
       font-size: larger;
       font-weight: bold;
     }
+
+    .timeLineEventActive{
+      background-color: #075281;
+      border-radius: 15px;
+      padding: 15px 20px;
+      color: aliceblue;
+      font-size: larger;
+      font-weight: bold;
+    }
   }
   

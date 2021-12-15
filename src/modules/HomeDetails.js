@@ -41,11 +41,11 @@ function HomeDetails() {
                     >
                         <div className="container">
                             <h2 className="mb-0 font-weight-bold ">
-                                FUTURE CHALLENGE 2021
+                                FUTURE CHALLENGE 2021-22
                             </h2>
                             <p className="mb-0 mt-4" style={{ fontSize: "15px",textAlign:"justify" }}>Future Challenge was started in 2005 as a day-long Career Fair with the participation of just 14 companies. With time, both its importance and magnitude has grown, with more and more companies and graduates participating in the event. We have witnessed the increased participation of more leading local and multinational companies, from IT, Finance, Marketing, Research and Development, Apparel to Fast-Moving Consumer Goods (FMCG).
                             </p>
-                            <h2 className="mt-3" style={{ fontSize: "20px" }}>Univeristy of Colombo , Faculty of Science</h2>
+                            <h2 className="mt-3" style={{ fontSize: "20px" }}>Faculty of Science , University of Colombo</h2>
                         </div>
 
                         <div>

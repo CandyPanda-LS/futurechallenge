@@ -62,7 +62,7 @@ function Navbar() {
                                 href="#workstat"
                                 style={{ color: "#ffffff" }}
                             >
-                                <h4>WORKSTAT</h4>
+                                <h4>WORKSTATT</h4>
                             </a>
                         </li>
                         <li className="nav-item active">

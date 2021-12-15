@@ -1,5 +1,9 @@
 import React from 'react'
 import BoardCard from '../commons/BoardCard'
+import p1 from '../assets/PastExperiences/p1.jpg'
+import p2 from '../assets/PastExperiences/p2.jpg'
+import p3 from '../assets/PastExperiences/p3.JPG'
+import p4 from '../assets/PastExperiences/p4.JPG'
 
 function SuccessStories() {
     return (
@@ -11,46 +15,37 @@ function SuccessStories() {
                     <div className="row d-flex">
                         <div className="col-md-3 col-sm-6">
                             <BoardCard
-                                image="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/234452560_573180670761271_4786559167764711371_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UiZpTCKt1G0AX_rRFsw&_nc_ht=scontent.fcmb1-2.fna&oh=454d5d182568e0e2a88ef3a61dff0b5e&oe=61B5FD53"
-                                name="Malith jayasinghe"
-                                position="(Intern SE at WSO2)"
-                                quote="I am very happy"
+                                image={p1}
+                                name="Hashan Pasindu"
+                                position="(Computational Physics)"
+                                quote="..."
                             />
 
                         </div>
                         <div className="col-md-3 col-sm-6">
                             <BoardCard
-                                image="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/234452560_573180670761271_4786559167764711371_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UiZpTCKt1G0AX_rRFsw&_nc_ht=scontent.fcmb1-2.fna&oh=454d5d182568e0e2a88ef3a61dff0b5e&oe=61B5FD53"
-                                name="Malith jayasinghe"
-                                position="(Intern SE at WSO2)"
-                                quote="I am very happy"
+                                image={p2}
+                                name="Shehani Jayasinghe"
+                                position="(ISMF)"
+                                quote=""
                             />
 
                         </div>
                         <div className="col-md-3 col-sm-6">
                             <BoardCard
-                                image="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/234452560_573180670761271_4786559167764711371_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UiZpTCKt1G0AX_rRFsw&_nc_ht=scontent.fcmb1-2.fna&oh=454d5d182568e0e2a88ef3a61dff0b5e&oe=61B5FD53"
-                                name="Malith jayasinghe"
-                                position="(Intern SE at WSO2)"
-                                quote="I am very happy"
+                                image={p3}
+                                name="Charith Peris"
+                                position="(BSc Special degree in Physics)"
+                                quote=""
                             />
 
                         </div>
                         <div className="col-md-3 col-sm-6">
                             <BoardCard
-                                image="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/234452560_573180670761271_4786559167764711371_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UiZpTCKt1G0AX_rRFsw&_nc_ht=scontent.fcmb1-2.fna&oh=454d5d182568e0e2a88ef3a61dff0b5e&oe=61B5FD53"
-                                name="Malith jayasinghe"
-                                position="(Intern SE at WSO2)"
-                                quote="I am very happy"
-                            />
-
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <BoardCard
-                                image="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/234452560_573180670761271_4786559167764711371_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UiZpTCKt1G0AX_rRFsw&_nc_ht=scontent.fcmb1-2.fna&oh=454d5d182568e0e2a88ef3a61dff0b5e&oe=61B5FD53"
-                                name="Malith jayasinghe"
-                                position="(Intern SE at WSO2)"
-                                quote="I am very happy"
+                                image={p4}
+                                name="Viran Silva"
+                                position="(Engineering Physics)"
+                                quote=""
                             />
 
                         </div>
