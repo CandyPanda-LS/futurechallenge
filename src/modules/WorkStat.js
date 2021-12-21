@@ -13,6 +13,11 @@ import {
     ModalHeader,
     ModalBody,
 } from "reactstrap";
+import WERKSTATT from '../assets/WERKSTATT.png'
+import WERKSTATT1 from '../assets/WERKSTATT1.jfif'
+import WERKSTATT2 from '../assets/WERKSTATT2.jfif'
+import WERKSTATT3 from '../assets/WERKSTATT3.jpeg'
+
 import { FaRegFilePowerpoint, FaUser, FaUniversity } from "react-icons/fa";
 import { BsCalendar } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
@@ -30,7 +35,7 @@ function WorkStat() {
     };
     return (
         <Container className="mt-5">
-            <h1 className="text-white text-center">KEYNOTES</h1>
+            <h1 className="text-white text-center">WERKSTATT </h1>
 
             <div
                 data-aos="fade-up"
@@ -51,19 +56,19 @@ function WorkStat() {
                                 <CardImg
                                     top
                                     width="100%"
-                                    src="https://firebasestorage.googleapis.com/v0/b/icafsl.appspot.com/o/workshopimages%2FWhatsApp%20Image%202021-07-03%20at%2013.40.17.jpeg?alt=media&token=1bdc73c1-1442-41d0-913e-5832335d5c1e"
+                                    src={WERKSTATT}
                                     alt="Card image cap"
                                     style={{ borderRadius: "20px" }}
                                 />
                                 <CardBody>
                                     <CardTitle tag="h5" style={{ color: "white" }}>
-                                        Workstat Session 1
+                                        WERKSTATT REGISTRATIONS OPEN
                                     </CardTitle>
                                     <CardSubtitle tag="h6" className="mb-2 text-muted">
-                                        2021-07-31
+                                        2021-12-15
                                     </CardSubtitle>
                                     <CardText style={{ color: "white" }}>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        We have opened the registrations for werkstatt 21.
                                     </CardText>
 
                                     <Button className="bg-transparent border-0">
@@ -83,125 +88,8 @@ function WorkStat() {
                                         <CgProfile color="white" fontSize="1.7em" />
                                     </Button> */}
                                 </CardBody>
-                            </Card>                        
-                            
-                        </div>
+                            </Card>
 
-                        {/* <div>
-                            <Modal isOpen={this.state.modal} toggle={this.toggle}>
-                                <ModalHeader toggle={this.toggle}>
-                                    {" "}
-                                    Workstat Session 1
-                                </ModalHeader>
-                                <ModalBody>
-                                    <div>
-                                        <h6>
-                                            <BsCalendar fontSize="1.5em" />{" "}
-                                            <span>
-                                                {" "}
-                                                {this.props.workshop.workshop.date.substring(0, 10)}
-                                            </span>
-                                        </h6>
-                                        <br />
-                                        <h6>
-                                            <AiOutlineFieldTime fontSize="1.5em" />{" "}
-                                            <span>
-                                                {" "}
-                                                {this.props.workshop.workshop.timeFrom} To{" "}
-                                                {this.props.workshop.workshop.timeTo}
-                                            </span>
-                                        </h6>
-                                    </div>
-                                </ModalBody>
-                            </Modal>
-                        </div> */}
-
-                        {/* <div>
-                            <Modal isOpen={this.state.modalProfile} toggle={this.toggleProfile}>
-                                <ModalHeader toggle={this.toggleProfile}>
-                                    {" "}
-                                    PRESENTER DETAILS
-                                </ModalHeader>
-                                <ModalBody>
-                                    <div>
-                                        <div>
-                                            <img
-                                                src={this.props.workshop.profileImg}
-                                                className="img-fluid"
-                                                alt="profilePic"
-                                            />
-                                        </div>
-                                        <br />
-                                        <h6>
-                                            <FaUser fontSize="1.5em" />{" "}
-                                            <span>
-                                                {" "}
-                                                {this.props.workshop.firstName}{" "}
-                                                {" " + this.props.workshop.lastName}
-                                            </span>
-                                        </h6>
-                                        <br />
-                                        <h6>
-                                            <MdWork fontSize="1.5em" />{" "}
-                                            <span> {this.props.workshop.jobStatus}</span>
-                                        </h6>
-                                        <br />
-                                        <h6>
-                                            <FaUniversity fontSize="1.5em" />{" "}
-                                            <span> {this.props.workshop.universityOrWorkPlace}</span>
-                                        </h6>
-                                    </div>
-                                </ModalBody>
-                            </Modal>
-                        </div> */}
-                    </div>
-
-                    <div>
-                        <div>
-                            <Card
-                                style={{
-                                    borderRadius: "20px",
-                                    backgroundColor: "#000102",
-                                    margin: "20px",
-                                }}
-                            >
-                                <CardImg
-                                    top
-                                    width="100%"
-                                    src="https://firebasestorage.googleapis.com/v0/b/icafsl.appspot.com/o/workshopimages%2FWhatsApp%20Image%202021-07-03%20at%2013.40.17.jpeg?alt=media&token=1bdc73c1-1442-41d0-913e-5832335d5c1e"
-                                    alt="Card image cap"
-                                    style={{ borderRadius: "20px" }}
-                                />
-                                <CardBody>
-                                    <CardTitle tag="h5" style={{ color: "white" }}>
-                                        Workstat Session 1
-                                    </CardTitle>
-                                    <CardSubtitle tag="h6" className="mb-2 text-muted">
-                                        2021-07-31
-                                    </CardSubtitle>
-                                    <CardText style={{ color: "white" }}>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    </CardText>
-
-                                    <Button className="bg-transparent border-0">
-                                        {/* <a href={this.props.workshop.workshop.fileLink} target="_blank">
-                                            <FaRegFilePowerpoint color="white" fontSize="1.75em" />
-                                        </a> */}
-                                    </Button>
-
-                                    {/* <Button className="bg-transparent border-0" onClick={this.toggle}>
-                                        <BsCalendar color="white" fontSize="1.5em" />
-                                    </Button> */}
-
-                                    {/* <Button
-                                        className="bg-transparent border-0"
-                                        onClick={this.toggleProfile}
-                                    >
-                                        <CgProfile color="white" fontSize="1.7em" />
-                                    </Button> */}
-                                </CardBody>
-                            </Card>                        
-                            
                         </div>
 
                         {/* <div>
@@ -284,19 +172,19 @@ function WorkStat() {
                                 <CardImg
                                     top
                                     width="100%"
-                                    src="https://firebasestorage.googleapis.com/v0/b/icafsl.appspot.com/o/workshopimages%2FWhatsApp%20Image%202021-07-03%20at%2013.40.17.jpeg?alt=media&token=1bdc73c1-1442-41d0-913e-5832335d5c1e"
+                                    src={WERKSTATT1}
                                     alt="Card image cap"
                                     style={{ borderRadius: "20px" }}
                                 />
                                 <CardBody>
                                     <CardTitle tag="h5" style={{ color: "white" }}>
-                                        Workstat Session 1
+                                        WERKSTATT Session 1 : CV Writting
                                     </CardTitle>
                                     <CardSubtitle tag="h6" className="mb-2 text-muted">
-                                        2021-07-31
+                                        2021-12-20
                                     </CardSubtitle>
                                     <CardText style={{ color: "white" }}>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        The First session of WERKSTATT on CV writting.
                                     </CardText>
 
                                     <Button className="bg-transparent border-0">
@@ -316,8 +204,8 @@ function WorkStat() {
                                         <CgProfile color="white" fontSize="1.7em" />
                                     </Button> */}
                                 </CardBody>
-                            </Card>                        
-                            
+                            </Card>
+
                         </div>
 
                         {/* <div>
@@ -388,6 +276,129 @@ function WorkStat() {
                             </Modal>
                         </div> */}
                     </div>
+                    <div>
+                        <div>
+                            <Card
+                                style={{
+                                    borderRadius: "20px",
+                                    backgroundColor: "#000102",
+                                    margin: "20px",
+                                }}
+                            >
+                                <CardImg
+                                    top
+                                    width="100%"
+                                    src={WERKSTATT2}
+                                    alt="Card image cap"
+                                    style={{ borderRadius: "20px" }}
+                                />
+                                <CardBody>
+                                    <CardTitle tag="h5" style={{ color: "white" }}>
+                                        CV Submissions are open
+                                    </CardTitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">
+                                        2021-12-20
+                                    </CardSubtitle>
+                                    <CardText style={{ color: "white" }}>
+                                        CV Submissions for Future Challenge are NOW OPEN!
+                                    </CardText>
+
+                                    <Button className="bg-transparent border-0">
+                                        {/* <a href={this.props.workshop.workshop.fileLink} target="_blank">
+                                            <FaRegFilePowerpoint color="white" fontSize="1.75em" />
+                                        </a> */}
+                                    </Button>
+
+                                    {/* <Button className="bg-transparent border-0" onClick={this.toggle}>
+                                        <BsCalendar color="white" fontSize="1.5em" />
+                                    </Button> */}
+
+                                    {/* <Button
+                                        className="bg-transparent border-0"
+                                        onClick={this.toggleProfile}
+                                    >
+                                        <CgProfile color="white" fontSize="1.7em" />
+                                    </Button> */}
+                                </CardBody>
+                            </Card>
+
+                        </div>
+                        
+                        
+
+                        {/* <div>
+                            <Modal isOpen={this.state.modal} toggle={this.toggle}>
+                                <ModalHeader toggle={this.toggle}>
+                                    {" "}
+                                    Workstat Session 1
+                                </ModalHeader>
+                                <ModalBody>
+                                    <div>
+                                        <h6>
+                                            <BsCalendar fontSize="1.5em" />{" "}
+                                            <span>
+                                                {" "}
+                                                {this.props.workshop.workshop.date.substring(0, 10)}
+                                            </span>
+                                        </h6>
+                                        <br />
+                                        <h6>
+                                            <AiOutlineFieldTime fontSize="1.5em" />{" "}
+                                            <span>
+                                                {" "}
+                                                {this.props.workshop.workshop.timeFrom} To{" "}
+                                                {this.props.workshop.workshop.timeTo}
+                                            </span>
+                                        </h6>
+                                    </div>
+                                </ModalBody>
+                            </Modal>
+                        </div> */}
+
+                        {/* <div>
+                            <Modal isOpen={this.state.modalProfile} toggle={this.toggleProfile}>
+                                <ModalHeader toggle={this.toggleProfile}>
+                                    {" "}
+                                    PRESENTER DETAILS
+                                </ModalHeader>
+                                <ModalBody>
+                                    <div>
+                                        <div>
+                                            <img
+                                                src={this.props.workshop.profileImg}
+                                                className="img-fluid"
+                                                alt="profilePic"
+                                            />
+                                        </div>
+                                        <br />
+                                        <h6>
+                                            <FaUser fontSize="1.5em" />{" "}
+                                            <span>
+                                                {" "}
+                                                {this.props.workshop.firstName}{" "}
+                                                {" " + this.props.workshop.lastName}
+                                            </span>
+                                        </h6>
+                                        <br />
+                                        <h6>
+                                            <MdWork fontSize="1.5em" />{" "}
+                                            <span> {this.props.workshop.jobStatus}</span>
+                                        </h6>
+                                        <br />
+                                        <h6>
+                                            <FaUniversity fontSize="1.5em" />{" "}
+                                            <span> {this.props.workshop.universityOrWorkPlace}</span>
+                                        </h6>
+                                    </div>
+                                </ModalBody>
+                            </Modal>
+                        </div> */}
+                    </div>
+                    
+                    
+
+
+
                 </CardColumns>
             </div>
         </Container>

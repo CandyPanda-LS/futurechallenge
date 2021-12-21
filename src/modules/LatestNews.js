@@ -28,6 +28,48 @@ function LatestNews() {
                         </CardBody>
                     </Card>
                 </div>
+                <div
+                    className="col-lg-4 col-sm-12 mt-3"
+                >
+                    <Card className="CardDiv">
+                        <CardBody>
+                            <CardText>The registrations for WERKSTATT  2021-22 are open now. Please use the form below to register</CardText>
+                            <CardText className="text-muted">
+                                2021-12-15
+                            </CardText>
+                            <Button className="btn btn-info">
+                                <a
+                                    href="https://tinyurl.com/WERKSTATT-Registration"
+                                    style={{ color: "black", textDecoration: "none" }}
+                                    target="_blank"
+                                >
+                                    Click Here To Register
+                                </a>
+                            </Button>
+                        </CardBody>
+                    </Card>
+                </div>
+                <div
+                    className="col-lg-4 col-sm-12 mt-3"
+                >
+                    <Card className="CardDiv">
+                        <CardBody>
+                            <CardText>The CV Submissions for WERKSTATT  2021-22 are open now. Please use the following link</CardText>
+                            <CardText className="text-muted">
+                                2021-12-20
+                            </CardText>
+                            <Button className="btn btn-info">
+                                <a
+                                    href="https://tinyurl.com/FCCV-SUBMISSION"
+                                    style={{ color: "black", textDecoration: "none" }}
+                                    target="_blank"
+                                >
+                                    Click To Submit
+                                </a>
+                            </Button>
+                        </CardBody>
+                    </Card>
+                </div>
                 {/* <div
                     className="col-lg-4 col-sm-12 mt-3"
                 >

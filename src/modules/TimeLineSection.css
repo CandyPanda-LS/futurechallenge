@@ -9,6 +9,13 @@
     color: aliceblue;
     font-weight: bold;
   }
+  .timeLineEventActive {
+    border-radius: 5px;
+    background-color: #075281;
+    padding: 6%;
+    color: aliceblue;
+    font-weight: bold;
+  }
   @media only screen and (min-width: 800px) {
     .timeLineEventDate {
       color: aliceblue;

@@ -47,14 +47,14 @@ export default function TimeLineSection() {
             </TimelineSeparator>
             <TimelineContent>
               <Typography>
-                <span className="timeLineEventActive">Registration open</span>
+                <span className="timeLineEventActive">Registrations open</span>
               </Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent >
               <Typography >
-                <span className="timeLineEventDate">18th December 2021</span>
+                <span className="timeLineEventDate">20th December 2021</span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -63,7 +63,7 @@ export default function TimeLineSection() {
             </TimelineSeparator>
             <TimelineContent>
               <Typography>
-                <span className="timeLineEvent">Registration close</span>
+                <span className="timeLineEventActive">WERKSTATT session 1</span>
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -79,30 +79,14 @@ export default function TimeLineSection() {
             </TimelineSeparator>
             <TimelineContent>
               <Typography>
-                <span className="timeLineEvent">WERKSTATT session 1</span>
+                <span className="timeLineEventActive">CV submissions open</span>
               </Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography>
-                <span className="timeLineEventDate">20th December 2021</span>
-              </Typography>
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineDot />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-              <Typography>
-                <span className="timeLineEvent">CV submissions open</span>
-              </Typography>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineOppositeContent>
-              <Typography>
-                <span className="timeLineEventDate">22nd December 2021 </span>
+                <span className="timeLineEventDate">22nd December 2021</span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -118,8 +102,7 @@ export default function TimeLineSection() {
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography>
-                <span className="timeLineEventDate">
-                  26th December 2021                </span>
+                <span className="timeLineEventDate"> 26th December 2021</span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -135,7 +118,9 @@ export default function TimeLineSection() {
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography>
-                <span className="timeLineEventDate">27th December 2021 </span>
+                <span className="timeLineEventDate">
+                27th December 2021
+                </span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -151,8 +136,7 @@ export default function TimeLineSection() {
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography>
-                <span className="timeLineEventDate">
-                  3rd January 2021                </span>
+                <span className="timeLineEventDate">3rd January 2021 </span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -168,7 +152,9 @@ export default function TimeLineSection() {
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography>
-                <span className="timeLineEventDate">6th January 2021 </span>
+                <span className="timeLineEventDate">
+                6th January 2021
+                                  </span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -184,8 +170,7 @@ export default function TimeLineSection() {
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography>
-                <span className="timeLineEventDate">
-                  7th January 2021             </span>
+                <span className="timeLineEventDate"> 7th January 2021  </span>
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -198,6 +183,7 @@ export default function TimeLineSection() {
               </Typography>
             </TimelineContent>
           </TimelineItem>
+          
         </Timeline>
       </div>
     </div>
